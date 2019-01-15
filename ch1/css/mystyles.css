@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+	padding: 1rem .5rem;
+	font-size: 1.3rem;
+	line-height: 1.2;
+	max-width: 60rem;
+	color: #333;
+}
+
+.PageHeader {
+    display: block;
+	text-align: center;
+	border-bottom: 8px double #f9f9f9;
+	margin-bottom: 2rem;
+	padding-bottom: 1rem;
+}
+
+.PageHeadingText {
+	font-size: 2.5rem;
+    font-weight: bold;
+}
+
+img {
+    max-width: 100%;
+}
+
+.FigureWrapper {
+    position: relative;
+}
+
+.MainImage {
+    border: 6px solid #e8cfa9;
+	border-radius: 4px;
+}
+
+.ImageCaption {
+	font-size: .75rem;
+	position: absolute;
+	bottom: .5rem;
+	right: 1rem;
+}
